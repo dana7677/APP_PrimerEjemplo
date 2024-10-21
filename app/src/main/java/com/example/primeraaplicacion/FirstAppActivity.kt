@@ -24,8 +24,11 @@ class FirstAppActivity : AppCompatActivity() {
             if (name.isNotEmpty())
             {
                 val intent = Intent(this,SecondAppActivity::class.java)
+                intent.putExtra("NombreAPasar",name)
+                startActivity(intent)
+
                 Log.i("Daniel", "Dice $name")
-                //startActivity()
+
             }
 
         }
