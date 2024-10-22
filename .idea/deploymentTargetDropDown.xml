@@ -10,12 +10,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="$PROJECT_DIR$/../.android/avd/AndroidMasterEmulator.avd" />
+                  <value value="$PROJECT_DIR$/../.android/avd/Medium_Phone_API_35.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-10-21T14:42:51.556199Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-10-22T15:31:40.045184Z" />
         </State>
       </entry>
     </value>
