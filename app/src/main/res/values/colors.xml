@@ -13,5 +13,6 @@
     <color name="background_app">#222C26</color>
     <color name="background_button">#2C4C48</color>
     <color name="title_text">#C8C8C8</color>
+    <color name="background_button_maths">#00B9AA</color>
 
 </resources>

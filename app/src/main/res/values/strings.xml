@@ -2,4 +2,9 @@
     <string name="app_name">PrimeraAplicacion</string>
     <string name="Male">Hombre</string>
     <string name="Female">Mujer</string>
+    <string name="Height">Altura</string>
+    <string name="Weight">Peso</string>
+    <string name="Age">Años</string>
+    <string name="Calculate">Calcular</string>
+
 </resources>
