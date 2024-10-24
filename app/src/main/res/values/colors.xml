@@ -15,4 +15,11 @@
     <color name="title_text">#C8C8C8</color>
     <color name="background_button_maths">#00B9AA</color>
 
+    //Pesos
+    <color name="BajoPeso">#00FFEA</color>
+    <color name="Normal">#11FF00</color>
+    <color name="SobrePeso">#FF8400</color>
+    <color name="Obesidad">#FF001E</color>
+    <color name="ObesidadExtrema">#250000</color>
+
 </resources>

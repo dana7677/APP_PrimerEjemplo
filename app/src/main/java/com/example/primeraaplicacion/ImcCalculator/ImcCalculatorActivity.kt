@@ -1,5 +1,6 @@
 package com.example.primeraaplicacion.ImcCalculator
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -35,6 +36,11 @@ class ImcCalculatorActivity : AppCompatActivity() {
     private lateinit var btnSubstractWeight: FloatingActionButton
     private lateinit var btnUpGradeWeight: FloatingActionButton
     private lateinit var btnCalculateImc:Button
+
+    companion object
+    {
+        const val IMC_KEY="IMC_RESULT"
+    }
 
 
 
@@ -93,12 +99,24 @@ class ImcCalculatorActivity : AppCompatActivity() {
             SetWeight()}
         btnUpGradeAge.setOnClickListener { currentAge++
             SetAge()}
-        btnCalculateImc.setOnClickListener { CalculateImc() }
+        btnCalculateImc.setOnClickListener {
+            val result = CalculateImc()
+            navigateToResult(result)
+        }
 
     }
-    private fun CalculateImc()
+    private fun navigateToResult(result: Double)
     {
-
+        val intent = Intent(this,ResultIMCActivity::class.java)
+        intent.putExtra(IMC_KEY,result)
+        startActivity(intent)
+    }
+    private fun CalculateImc():Double
+    {
+        //Formula del IMC
+        val df = DecimalFormat("#.##")
+        val imc = currentWeight/(currentHeight.toDouble()/100*currentHeight.toDouble()/100)
+        return df.format(imc).toDouble()
     }
     private fun SetWeight()
     {
