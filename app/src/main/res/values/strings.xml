@@ -1,27 +1,27 @@
 <resources>
-    <string name="app_name">PrimeraAplicacion</string>
-    <string name="Male">Hombre</string>
-    <string name="Female">Mujer</string>
-    <string name="Height">Altura</string>
-    <string name="Weight">Peso</string>
-    <string name="Age">Años</string>
-    <string name="Calculate">Calcular</string>
-    <string name="YourResult">Tu Resultado</string>
-    <string name="RecalculateResult">Re Calcular Resultado</string>
+    <string name="app_name">FirstApp</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="Age">Age</string>
+    <string name="Calculate">Calculate</string>
+    <string name="YourResult">Your result</string>
+    <string name="RecalculateResult">Recalculate Result</string>
 
 
     //Pesos
-    <string name="BajoPesoCategory">Bajo Peso</string>
-    <string name="NormalCategory">Normal</string>
-    <string name="SobrePesoCategory">SobrePeso</string>
-    <string name="ObesidadCategory">Obesidad</string>
-    <string name="ObesidadExtremaCategory">Obesidad Extrema</string>
-    <string name="BajoPesoDescrip">Estas por debajo de tu peso, deberias cuidar este aspecto, es tanto o mas peligroso que estar gordo, anda comete unos Croissant mas</string>
-    <string name="NormalDescrip">Estas en tu peso ideal sigue asi</string>
-    <string name="SobrePesoDescrip">Estas un poco por encima de la media, deberias cuidarte un poco mas y hacer un poco de ejercicio te vendria muy bien</string>
-    <string name="ObesidadDescrip">Estas poniendo en riesgo tu vida tienes que hacer un cambio lo antes posible y cuidar tu salud</string>
-    <string name="ObesidadExtremaDescrip">Estas jugandote la vida cada dia si sigues asi no duraras mucho estas a tiempo de dar un cambio tu puedes</string>
-    <string name="GeneralDescrip">Este resultado solo se debe a aplicar a personas no deportistas, no tiene en cuenta la masa magra, la mide igual que la grasa</string>
+    <string name="BajoPesoCategory">Underweight</string>
+    <string name="NormalCategory">Normie</string>
+    <string name="SobrePesoCategory">Overweight</string>
+    <string name="ObesidadCategory">Obesity</string>
+    <string name="ObesidadExtremaCategory">Extreme Obesity</string>
+    <string name="BajoPesoDescrip">You are underweight, you should take care of this aspect, it is as dangerous or more dangerous than being fat, go eat some more Croissants</string>
+    <string name="NormalDescrip">You are at your ideal weight, keep it up</string>
+    <string name="SobrePesoDescrip">You are a little above average, you should take care of yourself a little more and doing a little exercise would be very good for you.</string>
+    <string name="ObesidadDescrip">" You are putting your life at risk, you have to make a change as soon as possible and take care of your health."</string>
+    <string name="ObesidadExtremaDescrip">You are risking your life every day, if you continue like this, you will not last long. You are in time to make a change. You can.</string>
+    <string name="GeneralDescrip">This result is only due to applying to non-athletic people, it does not take into account lean mass, it measures it the same as fat</string>
 
 
 </resources>

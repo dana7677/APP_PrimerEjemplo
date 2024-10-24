@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrimeraAplicacion</string>
+    <string name="Male">Hombre</string>
+    <string name="Female">Mujer</string>
+    <string name="Height">Altura</string>
+    <string name="Weight">Peso</string>
+    <string name="Age">Años</string>
+    <string name="Calculate">Calcular</string>
+    <string name="YourResult">Tu Resultado</string>
+    <string name="RecalculateResult">Re Calcular Resultado</string>
+    <string name="BajoPesoCategory">Bajo Peso</string>
+    <string name="NormalCategory">Normal</string>
+    <string name="SobrePesoCategory">SobrePeso</string>
+    <string name="ObesidadCategory">Obesidad</string>
+    <string name="ObesidadExtremaCategory">Obesidad Extre</string>
+    <string name="BajoPesoDescrip">Estas por debajo de tu peso, deberias cuidar este aspecto, es tanto o mas peligroso que estar gordo, anda comete unos Croissant mas</string>
+    <string name="NormalDescrip">Estas en tu peso ideal sigue asi</string>
+    <string name="SobrePesoDescrip">Estas un poco por encima de la media, deberias cuidarte un poco mas y hacer un poco de ejercicio te vendria muy bien</string>
+    <string name="ObesidadDescrip">Estas poniendo en riesgo tu vida tienes que hacer un cambio lo antes posible y cuidar tu salud</string>
+    <string name="ObesidadExtremaDescrip">Estas jugandote la vida cada dia si sigues asi no duraras mucho estas a tiempo de dar un cambio tu puedes</string>
+    <string name="GeneralDescrip">Este resultado solo se debe a aplicar a personas no deportistas, no tiene en cuenta la masa magra, la mide igual que la grasa</string>
+</resources>
